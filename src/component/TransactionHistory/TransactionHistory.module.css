@@ -1,0 +1,28 @@
+.table {
+  border: 1px solid #000;
+  width: 600px;
+}
+
+.head {
+  background-color: #110;
+  color: #fff;
+  border: 1px solid #000;
+  height: 30px;
+}
+
+.body {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.item_row {
+  height: 30px;
+}
+
+.item_col {
+  border: 1px solid #000;
+}
+
+.item_row:nth-child(even) {
+  background-color: grey;
+}
